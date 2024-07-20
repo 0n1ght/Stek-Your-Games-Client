@@ -1,0 +1,6 @@
+{
+"run_variable" : ["python"],
+"main_path" : "apps/Space-Zone/main.py",
+"title" : "Space Zone",
+"icon_path" : "resources/img/app-icons/space_zone_icon.png"
+}

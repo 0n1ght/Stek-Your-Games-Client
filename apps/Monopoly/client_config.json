@@ -1,0 +1,6 @@
+{
+"run_variable" : ["java", "-jar"],
+"main_path" : "apps/Monopoly/target/Monopoly-1.0-SNAPSHOT.jar",
+"title" : "Monopoly",
+"icon_path" : "resources/img/app-icons/monopoly_icon.png"
+}

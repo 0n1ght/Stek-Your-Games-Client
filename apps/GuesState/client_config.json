@@ -1,0 +1,6 @@
+{
+"run_variable" : ["python"],
+"main_path" : "apps/GuesState/main.py",
+"title" : "GuesState",
+"icon_path" : "resources/img/app-icons/guesstate_icon.png"
+}

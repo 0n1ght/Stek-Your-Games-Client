@@ -1,0 +1,6 @@
+{
+"run_variable" : ["python"],
+"main_path" : "apps/Quiz-App/main.py",
+"title" : "Quiz App",
+"icon_path" : "resources/img/app-icons/quiz_app_icon.png"
+}

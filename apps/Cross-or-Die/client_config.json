@@ -1,0 +1,6 @@
+{
+"run_variable" : ["python"],
+"main_path" : "apps/Cross-Or-Die/main.py",
+"title" : "Cross or Die",
+"icon_path" : "resources/img/app-icons/CoD_icon.png"
+}

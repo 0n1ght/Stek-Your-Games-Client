@@ -1,0 +1,6 @@
+{
+"run_variable" : ["python"],
+"main_path" : "apps/Snake/main.py",
+"title" : "Snake",
+"icon_path" : "resources/img/app-icons/snake_icon.png"
+}

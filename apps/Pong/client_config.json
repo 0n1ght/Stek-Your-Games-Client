@@ -1,0 +1,6 @@
+{
+"run_variable" : ["python"],
+"main_path" : "apps/Pong/main.py",
+"title" : "Pong",
+"icon_path" : "resources/img/app-icons/pong_icon.png"
+}

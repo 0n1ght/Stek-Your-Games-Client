@@ -1,0 +1,4 @@
+requests~=2.32.3
+pandas~=2.2.2
+pygame~=2.6.0
+pillow~=10.4.0

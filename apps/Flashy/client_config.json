@@ -1,0 +1,6 @@
+{
+"run_variable" : ["python"],
+"main_path" : "apps/Flashy/main.py",
+"title" : "Flashy",
+"icon_path" : "resources/img/app-icons/flashy_icon.png"
+}
