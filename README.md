@@ -8,17 +8,23 @@ Now you can keep all of them in one place, put into your GitHub Account inside t
 - Easy and Quick App deployment process
 
 ## Screen-shots
+**Home**
+<br>
 ![home](https://github.com/user-attachments/assets/0b39acd6-38c5-4f6d-a62d-c8f3fa3e68ed)
 <br>
+**Monopoly**
 <br>
 ![monopoly](https://github.com/user-attachments/assets/196d84f0-472b-4806-9c00-00fa93811e41)
 <br>
+**Space-Zone**
 <br>
 ![ss2 2](https://github.com/user-attachments/assets/c2e51cd4-b562-4b12-aa6a-370bb85efc79)
 <br>
+**Cross-or-Die**
 <br>
 ![ss2](https://github.com/user-attachments/assets/b225c80b-0d8a-4cd8-accd-a9abf53bb7dd)
 <br>
+**Retro Snake**
 <br>
 ![ss3](https://github.com/user-attachments/assets/87f28305-781b-461b-8f2c-6df8f1b4f6a7)
 
