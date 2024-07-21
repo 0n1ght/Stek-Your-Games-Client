@@ -23,19 +23,17 @@ Now you can keep all of them in one place, put into your GitHub Account inside t
 ![ss3](https://github.com/user-attachments/assets/87f28305-781b-461b-8f2c-6df8f1b4f6a7)
 
 ## Quick-start
-1. <b>Download the Project</b>
-<br>
-<em>You can do this using GIT, or as a .jar file and unpack it.
-<br>
-Make sure that you have python downloaded. If not, you can do this [here](https://www.python.org/downloads/)
-<br>
-Open the Stek project in your code editor</em>
 
-2. <b>Add your own apps and Make changes</b>
-<br>
-<em>Put your project into "apps" folder. In its main folders, include ```client_config.json``` files<br>
-This file let client know, how to display the app in GUI, and run.<br>
+1. **Download the Project**
+You can do this using GIT, or as a .jar file and unpack it.  
+Make sure that you have Python downloaded. If not, you can do this [here](https://www.python.org/downloads/) (To run Java games like Chess or Monopoly you should also have [Java](https://www.oracle.com/java/technologies/downloads/) installed).  
+Open the Stek project in your code editor.
+
+2. **Add your own apps and Make changes**
+*Put your project into the "apps" folder. In its main folders, include `client_config.json` files.*  
+This file lets the client know how to display the app in the GUI, and run.  
 File's content should look like this:
+
 <pre>
 {
 "run_variable" : ["java", "-jar"],
@@ -44,13 +42,13 @@ File's content should look like this:
 "icon_path" : "resources/img/app-icons/space_war_icon.png"
 }
 </pre>
-Client will display an image from <icon_path> and <title> of your App. Tu run it, it is going to use following commands in OS's CLI: <run_variable...> <main_path><br>
-If you would like to make any design changes, you can find the entire client code in
-```client.py```</em>
-3. <b>Install requirements and Run</b>
-<br>
-<em>Using CLI go into project folder and write ```pip install -r requirements.txt```.<br>
-Now, You can Run the app using ```python client.py```</em>
-<br>
-<br>
-And have Fun, Including the client code with your own apps inside "apps" folder, you can treat its code like your own.<br>You're welcome!
+
+Client will display an image from <icon_path> and <title> of your App. To run it, it is going to use the following commands in the OS's CLI: <run_variable...> <main_path>.  
+If you would like to make any design changes, you can find the entire client code in `client.py`.
+
+3. **Install requirements and Run**
+Using CLI, go into the project folder and write `pip install -r requirements.txt`.  
+Now, you can run the app using `python client.py`.  
+
+And have fun! Including the client code with your own apps inside the "apps" folder, you can treat its code like your own.  
+You're welcome!
