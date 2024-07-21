@@ -1,6 +1,0 @@
-{
-"run_variable" : "java",
-"main_path" : "apps/Chess/src/Launcher.java",
-"title" : "Chess",
-"icon_path" : "resources/img/app-icons/chess_icon.png"
-}
