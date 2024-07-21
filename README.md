@@ -1,10 +1,12 @@
 # Stek: Your Apps Client
-During learning programming or free time, You've made a lot of small projects, but they are not enough to be included separately into portfolio?
-Or maybe you just want to tidy up your own apps?<br>
-Now, you can keep all of them in one place, put into your GitHub Account within this simple client, or just use whenever you want by simple GUI.
+During learning programming or in the free time, You've made a lot of small projects, but they are not enough to be included separately into portfolio?
+
+Or maybe you just want to tidy up your own apps?
+
+Now, you can keep all of them in one place, put into your GitHub within this simple client, or just use whenever you want with simple GUI manager.
 ## Features
-- Has built-in my 10 open-source games by default (written in Java and Python), which you can modify and play.
-- Code written in one file- ```client.py```, embedded with easy comments to let you change whatever you want
+- Has built-in my 10 open-source games by default (written in Java and Python), which you can modify, play, or just delete xd.
+- Code written in one file- ```client.py```, embedded with easy comments to let you change whatever you want (colors, sizes, shapes)
 - Easy and Quick App deployment process
 ## Screen-shots
 **Home**
