@@ -1,29 +1,34 @@
 package pl.monopoly.view;
 
 import javax.sound.sampled.*;
-import java.io.File;
+import java.io.BufferedInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 
 public class MusicPlayer {
     private static Clip clip;
 
     public static void play() {
+        try (InputStream resourceStream = MusicPlayer.class.getResourceAsStream("/sounds/music.wav")) {
+            if (resourceStream == null) {
+                throw new IOException("Resource /sounds/music.wav not found");
+            }
 
-        try {
+            // Wrap InputStream with BufferedInputStream
+            BufferedInputStream bufferedStream = new BufferedInputStream(resourceStream);
 
-            AudioInputStream audioStream = AudioSystem.getAudioInputStream(new File("src\\main\\resources\\sounds\\music.wav"));
+            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(bufferedStream);
             clip = AudioSystem.getClip();
-            clip.open(audioStream);
+            clip.open(audioInputStream);
             clip.start();
         } catch (UnsupportedAudioFileException | LineUnavailableException | IOException e) {
-
             throw new RuntimeException(e);
         }
     }
 
     public static void stop() {
-        try {
+        if (clip != null) {
             clip.stop();
-        } catch (NullPointerException ignored) {}
+        }
     }
 }

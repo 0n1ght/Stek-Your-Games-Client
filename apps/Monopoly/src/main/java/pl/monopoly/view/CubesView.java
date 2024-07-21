@@ -4,11 +4,12 @@ import pl.monopoly.model.Cubes;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.Objects;
 
-public class CubesView extends CustomButtonView{
+public class CubesView extends CustomButtonView {
     private final Cubes cubes;
-    private int heightOneCube = 130;
-    private int widthOneCube = 200;
+    private final int heightOneCube = 130;
+    private final int widthOneCube = 200;
 
     // create
     public CubesView(Cubes cubes) {
@@ -17,8 +18,8 @@ public class CubesView extends CustomButtonView{
     }
 
     // methods
+    @Override
     public void render(Graphics g) {
-
         int borderWidth = 6;
 
         int innerX = positionX + borderWidth / 2;
@@ -26,11 +27,13 @@ public class CubesView extends CustomButtonView{
         int innerWidth = width - borderWidth;
         int innerHeight = height - borderWidth;
 
-        g.drawImage(new ImageIcon("src\\main\\resources\\img\\cubesBackground.jpg").getImage(), positionX, positionY, width, height, null);
+        // Load background image using class loader
+        ImageIcon backgroundImage = new ImageIcon(Objects.requireNonNull(getClass().getResource("/img/cubesBackground.jpg")));
+        g.drawImage(backgroundImage.getImage(), positionX, positionY, width, height, null);
 
         g.setColor(new Color(0, 51, 102));
         g.setFont(new Font("Roboto", Font.BOLD, 17));
-        g.drawString(" Click to randomize!", positionX + 37, positionY + -5);
+        g.drawString("Click to randomize!", positionX + 37, positionY - 5);
 
         g.setColor(Color.BLACK);
         g.drawRect(positionX, positionY, width, height);
@@ -40,21 +43,22 @@ public class CubesView extends CustomButtonView{
         g2.setStroke(new BasicStroke(borderWidth));
         g2.drawRect(innerX, innerY, innerWidth, innerHeight);
 
-        showCube(cubes.getRoll1(), 0,g);
-        showCube(cubes.getRoll2(), 72,g);
+        showCube(cubes.getRoll1(), 0, g);
+        showCube(cubes.getRoll2(), 72, g);
     }
 
     public void showCube(int number, int gap, Graphics g) {
-        ImageIcon imageIcon;
-        imageIcon = new ImageIcon("src\\main\\resources\\img\\cubesAllImages\\cube" + number + "pImage.png");
+        // Load cube image using class loader
+        ImageIcon imageIcon = new ImageIcon(Objects.requireNonNull(getClass().getResource("/img/cubesAllImages/cube" + number + "pImage.png")));
         if (number != 0) {
-            g.drawImage(imageIcon.getImage(), positionX + 35+gap, positionY + 27, 100, 100, null);
+            g.drawImage(imageIcon.getImage(), positionX + 35 + gap, positionY + 27, 100, 100, null);
             return;
         }
         g.drawImage(imageIcon.getImage(), positionX - 10, positionY + 15, widthOneCube, heightOneCube, null);
         g.drawImage(imageIcon.getImage(), positionX + 50, positionY + 20, widthOneCube, heightOneCube, null);
     }
 
+    @Override
     public void click() {
         SoundPlayer.playSound(Sound.DRAW_CLICK);
         cubes.rollTheDice();

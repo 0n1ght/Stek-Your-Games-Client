@@ -1,9 +1,8 @@
 package pl.monopoly.view;
 
 public enum Sound {
-    DRAW_CLICK("drawClick"), BUTTON_CLICK("soundClickDefault");
+    DRAW_CLICK("sounds/drawClick"), BUTTON_CLICK("sounds/soundClickDefault");
 
-    private static final String AF = "src\\main\\resources\\sounds\\";
     private static final String FILE_TYPE = ".wav";
     private final String name;
 
@@ -12,6 +11,6 @@ public enum Sound {
     }
 
     public String getFullPath() {
-        return AF+name+FILE_TYPE;
+        return "/" + name + FILE_TYPE;
     }
 }
