@@ -3,7 +3,7 @@ During your learning career or free time, You've made a lot of small projects, b
 Or maybe you just want to tidy up your applications?<br>
 Now you can keep all of them in one place, put into your GitHub Account inside this one client, or just use whenever you want using simple GUI.
 ## Features
-- Has built-in my 10 open-source games by default (written in Java and Python), which you can modify and play.
+- Has built-in my 10 open-source games by default (written in Java and Python), which you can modify, play, or just delete
 - Code written in one file- ```client.py```, embedded with easy comments to let you change whatever you want
 - Easy and Quick App deployment process
 
