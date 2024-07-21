@@ -1,4 +1,4 @@
-# Stek: Your Multi-Application
+# Stek: Your Apps Client
 During your learning career or free time, You've made a lot of small projects, but they are not enough to be included separately in portfolio?
 Or maybe you just want to tidy up your applications?<br>
 Now you can keep all of them in one place, put into your GitHub Account inside this one client, or just use whenever you want using simple GUI.
