@@ -14,6 +14,7 @@ Now, you can keep all of them in one place, put into your GitHub within this sim
 ![home](https://github.com/user-attachments/assets/0b39acd6-38c5-4f6d-a62d-c8f3fa3e68ed)
 <br>
 Included projects:
+<br>
 **Monopoly**
 <br>
 ![monopoly](https://github.com/user-attachments/assets/196d84f0-472b-4806-9c00-00fa93811e41)
