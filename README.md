@@ -11,7 +11,7 @@ Now you can keep all of them in one place, put into your GitHub Account inside t
 ![home](https://github.com/user-attachments/assets/0b39acd6-38c5-4f6d-a62d-c8f3fa3e68ed)
 <br>
 <br>
-![gameView](https://github.com/KarolKasperek/Monopoly/assets/105314335/15bb8b7c-bd62-4b42-a558-c4d227e9100a)
+![monopoly](https://github.com/user-attachments/assets/196d84f0-472b-4806-9c00-00fa93811e41)
 <br>
 <br>
 ![ss2 2](https://github.com/user-attachments/assets/c2e51cd4-b562-4b12-aa6a-370bb85efc79)
