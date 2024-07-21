@@ -1,12 +1,11 @@
 # Stek: Your Apps Client
-During your learning career or free time, You've made a lot of small projects, but they are not enough to be included separately in portfolio?
-Or maybe you just want to tidy up your applications?<br>
-Now you can keep all of them in one place, put into your GitHub Account inside this one client, or just use whenever you want using simple GUI.
+During learning programming or free time, You've made a lot of small projects, but they are not enough to be included separately into portfolio?
+Or maybe you just want to tidy up your own apps?<br>
+Now, you can keep all of them in one place, put into your GitHub Account within this simple client, or just use whenever you want by simple GUI.
 ## Features
 - Has built-in my 10 open-source games by default (written in Java and Python), which you can modify and play.
 - Code written in one file- ```client.py```, embedded with easy comments to let you change whatever you want
 - Easy and Quick App deployment process
-
 ## Screen-shots
 **Home**
 <br>
@@ -30,14 +29,15 @@ Now you can keep all of them in one place, put into your GitHub Account inside t
 
 ## Quick-start
 
-<h3><b>Download the Project</b><br></h3>
+<h3><b>Download and Open</b><br></h3>
 You can do this using GIT, or as a .jar file and unpack it.<br>
 Make sure that you have python downloaded. If not, you can do this [here](https://www.python.org/downloads/)<br>
-Open the Stek project in your code editorv
+Open the Stek project in your code editor
 <br>
 <h3><b>Add your projects</b></h3>
-All apps that appears in client are inside "apps" folder. You can put there your own projects. Inside main project's folder, include ```client_config.json``` file<br>
-This file let client know, how to display the app in GUI, and how to run it when you click on the icon.<br>
+All apps that appears in client are inside "apps" folder. It this folder you will find 8 my own games. You can just delete them if you want, then they will disappear from client.
+Now, you can put there your own within folders. Inside your project's folder, include file named ```client_config.json```<br>
+This file will let client know, how to display the app in GUI, and how to run it when you click on the icon.<br>
 File's content should look like this:
 <pre>
 {
@@ -55,7 +55,8 @@ If you would like to make any design changes, you can find the entire client cod
 <em>Using CLI go into project folder and write ```pip install -r requirements.txt```.<br>
 Now, You can Run the app using ```python client.py```</em>
   
-If you want to run some default added app, make sure you have its dependencies and language downloaded
+If you want to run some default added app, make sure you have its dependencies and language downloaded.
 <br>
 <br>
-Have Fun! Client is simple, including it with your own apps inside "apps" folder to your portfolio or GitHub account, you can treat its code like your own.<br>You're welcome!
+This client is just a simple GUI Hub for your apps, you can put them into "apps" folder and include on your own GitHub.
+You can treat its code like your own. You're welcome.
