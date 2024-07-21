@@ -29,18 +29,15 @@ Now you can keep all of them in one place, put into your GitHub Account inside t
 ![ss3](https://github.com/user-attachments/assets/87f28305-781b-461b-8f2c-6df8f1b4f6a7)
 
 ## Quick-start
-1. <b>Download the Project</b>
-<br>
-<em>You can do this using GIT, or as a .jar file and unpack it.
-<br>
-Make sure that you have python downloaded. If not, you can do this [here](https://www.python.org/downloads/)
-<br>
-Open the Stek project in your code editor</em>
 
-2. <b>Add your own apps and Make changes</b>
+<h3><b>Download the Project</b><br></h3>
+You can do this using GIT, or as a .jar file and unpack it.<br>
+Make sure that you have python downloaded. If not, you can do this [here](https://www.python.org/downloads/)<br>
+Open the Stek project in your code editorv
 <br>
-<em>Put your project into "apps" folder. In its main folders, include ```client_config.json``` files<br>
-This file let client know, how to display the app in GUI, and run.<br>
+<h3><b>Add your projects</b><br></h3>
+All apps that appears in client are inside "apps" folder. You can put there your own projects. Inside main project's folder, include ```client_config.json``` file<br>
+This file let client know, how to display the app in GUI, and how to run it when you click on the icon.<br>
 File's content should look like this:
 <pre>
 {
@@ -50,11 +47,12 @@ File's content should look like this:
 "icon_path" : "resources/img/app-icons/space_war_icon.png"
 }
 </pre>
-Client will display an image from <icon_path> and <title> of your App. Tu run it, it is going to use following commands in OS's CLI: <run_variable...> <main_path><br>
-If you would like to make any design changes, you can find the entire client code in
-```client.py```</em>
-3. <b>Install requirements and Run</b>
+Client will <title> and the icon (as a png image) from <icon_path> above. Tu run it, it is going to use following commands in OS's CLI: <run_variable...> <main_path><br>
+For Example, the file above will display space_war_icon.png icon from resources/img/app-icons folder, and after click on this icon, it will run "java -jar apps/Space-War/Main.py" in Terminal/CMD
+If you would like to make any design changes, you can find the entire client code in ```client.py```</em>
 <br>
+<h3><b>How to use?</b></h3>
+
 <em>Using CLI go into project folder and write ```pip install -r requirements.txt```.<br>
 Now, You can Run the app using ```python client.py```</em>
 <br>
