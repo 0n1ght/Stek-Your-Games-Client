@@ -2,7 +2,7 @@
 A bunch of simple Open-Source games written in Python and Java, with simple GUI Client.<br>
 You can make changes in their source code, edit whatever you want and enjoy playing
 ## Features
-- 10 built-in Open-Source games which you can modify, play, or just delete xd.
+- 10 built-in Open-Source games which you can modify, and play
 - Ability to add your own games, or apps. (You can run them from just one place or add to your own portfolio)
 ## Screen-shots
 **Home**
