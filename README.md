@@ -3,7 +3,7 @@ A bunch of simple Open-Source games written in Python and Java, with simple GUI 
 You can make changes in their source code, edit whatever you want and enjoy playing
 ## Features
 - 10 built-in Open-Source games which you can modify, and play
-- Ability to add your own games, or apps. (You can run them from just one place or add to your own portfolio)
+- Ability to add your own games, or apps. (and add to your portfolio as one big project, if your apps separated are too small)
 ## Screen-shots
 **Home**
 <br>
