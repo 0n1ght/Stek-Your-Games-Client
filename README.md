@@ -1,6 +1,6 @@
 # Stek: Games Client
 A bunch of simple Open-Source games written in Python and Java, with simple GUI Client.<br>
-You can make changes in their source code, edit whatever you want and enjoy playing
+You can make changes in their source code, edit whatever you want and enjoy playing.
 ## Features
 - 10 built-in Open-Source games which you can modify, and play
 - Ability to add your own games, or apps. (and add to your portfolio as one big project, if your apps separated are too small)
