@@ -1,9 +1,23 @@
-# Stek: Games Client
-A bunch of simple Open-Source games written in Python and Java, with simple GUI Client.<br>
-You can make changes in their source code, and edit whatever you want.
+# Game Launcher Application
+
+This is a Python-based game launcher that lets you select and launch different games by clicking on various icons. The application features 10 games, including a large Java-based implementation of Monopoly. The rest of the games are written in Python and cover a variety of genres and gameplay styles.
+
 ## Features
-- 10 built-in Open-Source games which you can modify, and play
-- Ability to add your own games, or apps. (and add to your portfolio as one big project, if your apps separated are too small)
+
+- **Game Launcher**: A simple graphical user interface (GUI) that allows you to select one of 10 available games to play.
+- **Monopoly**: A fully implemented Monopoly game written in Java using Java Swing. It showcases the use of Object-Oriented Programming (OOP) principles and design patterns.
+- **Other Games**: 9 additional games written in Python, each with unique mechanics and gameplay.
+- **Cross-Technology**: Combines Python for the launcher with Java for the largest game (Monopoly), making it a cross-technology project.
+
+## Games Included
+
+### **Monopoly (Java)**
+   - **Description**: A digital version of the classic board game Monopoly, created using Java Swing.
+   - **Technologies**: Java, Swing, OOP, Design Patterns.
+   - **Features**: AI players, full implementation of rules, and interactive UI.
+
+### **Other Python games**
+
 ## Screen-shots
 **Home**
 <br>
@@ -25,37 +39,20 @@ You can make changes in their source code, and edit whatever you want.
 <br>
 ![ss3](https://github.com/user-attachments/assets/87f28305-781b-461b-8f2c-6df8f1b4f6a7)
 
-## Quick-start
 
-<h3>1) <b>Download and Open</b><br></h3>
-You can do this using GIT, or as a .jar file and unpack it.<br>
-Make sure that you have python downloaded. If not, you can do this [here](https://www.python.org/downloads/)<br>
-Open the Stek project in your code editor
-<br>
-<h3>2) <b>[optional] Add your projects</b></h3>
-All apps that appears in client are inside "apps" folder. It this folder you will find 8 my own games. You can just delete them if you want, then they will disappear from client.
-Now, you can put there your own within folders. Inside your project's folder, include file named ```client_config.json```<br>
-This file will let client know, how to display the app in GUI, and how to run it when you click on the icon.<br>
-File's content should look like this:
-<pre>
-{
-"run_variable" : ["java", "-jar"],
-"main_path" : "apps/Space-War/Main.py",
-"title" : "Space War",
-"icon_path" : "resources/img/app-icons/space_war_icon.png"
-}
-</pre>
-Client will <title> and the icon (as a png image) from <icon_path> above. Tu run it, it is going to use following commands in OS's CLI: <run_variable...> <main_path><br>
-For Example, the file above will display space_war_icon.png icon from resources/img/app-icons folder, and after click on this icon, it will run "java -jar apps/Space-War/Main.py" in Terminal/CMD
-If you would like to make any design changes, you can find the entire client code in ```client.py```</em>
-<br>
-<h3>3) <b>Run</b></h3>
-<em>Using CLI go into project folder and write ```pip install -r requirements.txt```.<br>
-Now, run the app using ```python client.py``` after opening project's folder</em><br>
-You can start modify and play games which you will find in "apps" folder.
-  
-If you want to run some default added app, make sure you have its dependencies and language downloaded.
-<br>
-<br>
-This client is just a simple GUI Hub for your apps, you can put them into "apps" folder and include on your own GitHub.
-You can treat its code like your own. You're welcome.
+## Installation
+
+To run the game launcher and play the games, follow these steps:
+
+### Prerequisites
+
+- Python 3.x
+- Java Runtime Environment (JRE) for Monopoly game
+- Install required Python libraries (see below)
+
+### Steps
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourusername/game-launcher.git
